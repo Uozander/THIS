@@ -1,0 +1,65 @@
+Match Transforms
+Relocate
+Pole Vector
+Freeze Transforms
+Group
+
+===================================================================================================
+
+
+$selected = `ls -sl`;
+		for( $node in $selected ) {
+if (size($node) == 0) {
+    print("Please select a joint.\n");
+    }
+    string $circleName = $node + "CTRL";
+    circle -c 0 0 0 -nr 1 0 0 -sw 360 -r 1 -d 3 -ut 0 -tol 0.01 -s 8 -ch 1 -name ($node + "CTRL"); objectMoveCommand;
+    scale 2 2 2 $circleName;
+			doGroup 0 1 1;
+    matchTransform group1 $node;
+    parentConstraint -mo -weight 1 $node group1;
+    connectAttr ($circleName + ".rotate") ($node + ".rotate");
+    rename "group1" ($node + "GRP");
+}
+
+
+
+================
+RENAME
+================
+
+$selected = `ls -sl`;
+ float $x = 0;
+ if (size($selected) == 0) {
+    print("Please select a joint.\n");
+    }else{
+		for( $node in $selected ) {
+    $x = $x + 1;
+    string $groupName = "group" + $x;
+    string $circleName = $node + "CTRL";
+    circle -c 0 0 0 -nr 1 0 0 -sw 360 -r 1 -d 3 -ut 0 -tol 0.01 -s 8 -ch 1 -name ($node + "CTRL"); objectMoveCommand;
+    scale 2 2 2 $circleName;
+			doGroup 0 1 1;
+    matchTransform $groupName $node;
+    parentConstraint -mo -weight 1 $node $groupName;
+    connectAttr ($circleName + ".rotate") ($node + ".rotate");
+    rename $groupName ($node + "GRP");
+}
+}
+
+=================
+FIX DOUBLE ROTATE -XXXXXXXXXXXXXXXXXXXXX
+=================
+
+
+$selected = `ls -sl`;
+ if (size($selected) == 0) {
+    print("Please select a group.\n");
+    }else{
+		for( $node in $selected ) {
+string $constraints[] = `listRelatives -type "parentConstraint" $selectedObj`;
+disconnectAttr $constraints[0].constraintRotateX $node.rotateX;
+disconnectAttr $constraints[0].constraintRotateY $node.rotateY;
+disconnectAttr $constraints[0].constraintRotateZ $node.rotateZ;
+}
+}

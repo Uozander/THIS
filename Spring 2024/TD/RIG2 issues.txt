@@ -1,0 +1,3 @@
+R-clavicle - FK CTRLs broken
+Finger skinning broken
+Mocap head turn

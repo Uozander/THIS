@@ -1,0 +1,32 @@
+//Maya Preference 2024 (Release 1)
+//
+//
+
+optionVar -version 3;
+
+// RecentFiles
+optionVar -cat "RecentFiles"
+ -sa "RecentFilesList"
+ -sva "RecentFilesList" "C:/Users/BEALJ1/Downloads/BEAL_dune_buggyFIXED.0003.mb"
+ -sva "RecentFilesList" "C:/Users/BEALJ1/Downloads/BEAL_dune_buggyFIXED.0004.mb"
+ -sva "RecentFilesList" "C:/Users/BEALJ1/Downloads/BEAL_dune_buggyFIXED.0005.mb"
+ -sva "RecentFilesList" "C:/Users/BEALJ1/Downloads/BEAL_dune_buggyFIXED.0006.mb"
+ -sva "RecentFilesList" "C:/Users/BEALJ1/Downloads/BEAL_dune_buggyFIXED.0007.mb"
+ -sva "RecentFilesList" "C:/Users/BEALJ1/Downloads/BEAL_dune_buggyFIXED.0008.mb"
+ -sva "RecentFilesList" "C:/Users/BEALJ1/Downloads/BEAL_dune_buggyFIXED.0009.mb"
+ -sva "RecentFilesList" "C:/Users/BEALJ1/Desktop/BEAL_dune_buggy.mb"
+ -sva "RecentFilesList" "C:/Users/BEALJ1/Desktop/BEAL_dune_buggy.0001.mb"
+ -sva "RecentFilesList" "C:/Users/BEALJ1/Desktop/BEAL_dune_buggyBROKEN.0001.mb"
+ -sa "RecentFilesTypeList"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ ;
+

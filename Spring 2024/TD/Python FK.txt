@@ -1,0 +1,115 @@
+import maya.cmds as cmds
+
+selected_objects = cmds.ls(selection=True)
+
+selected_joints = []
+for obj in selected_objects:
+    if cmds.nodeType(obj) == "joint":
+        selected_joints.append(obj)
+
+def match_transforms():
+    for obj in selected_joints:
+        control_curve = cmds.circle(name=obj + "_FK_ctrl", normal=(1, 0, 0))[0]
+        group = cmds.group(control_curve, name=obj + "_FK_grp")
+        translation = cmds.xform(obj, query=True, translation=True, worldSpace=True)
+        rotation = cmds.xform(obj, query=True, rotation=True, worldSpace=True)
+        scale = cmds.xform(obj, query=True, scale=True, worldSpace=True)
+        cmds.xform(group, translation=translation, rotation=rotation, scale=scale, worldSpace=True)
+        parent_constraint = cmds.parentConstraint(obj, group, mo=True)[0]
+        cmds.disconnectAttr(parent_constraint + ".constraintRotateY", group + ".rotateY")
+        cmds.disconnectAttr(parent_constraint + ".constraintRotateZ", group + ".rotateZ")
+        cmds.disconnectAttr(parent_constraint + ".constraintRotateX", group + ".rotateX")
+        cmds.connectAttr (control_curve + ".rotate", obj + ".rotate")
+
+match_transforms()
+
+============================================
+
+import maya.cmds as cmds
+
+selected_objects = cmds.ls(selection=True)
+
+up_objects = []
+selected_joints = []
+x = 0
+
+def pickwalk():
+    global x
+    for obj in selected_objects:
+        parent_objects = cmds.listRelatives(obj, parent=True, fullPath=True)
+        if parent_objects:
+            up_objects.extend(parent_objects)
+            cmds.select(up_objects)
+            selected_joints.append(selection)
+            x = x + 1
+    print(x)
+
+pickwalk()import maya.cmds as cmds
+
+selected_objects = cmds.ls(selection=True)
+
+up_objects = []
+selected_joints = []
+x = 0
+
+def pickwalk():
+    global x
+    for obj in selected_objects:
+        parent_objects = cmds.listRelatives(obj, parent=True, fullPath=True)
+        if parent_objects:
+            up_objects.extend(parent_objects)
+            cmds.select(up_objects)
+            selected_joints.append(selection)
+            x = x + 1
+    print(x)
+
+pickwalk()
+
+    
+if cmds.nodeType(selected) == "joint":
+if selected_joints [x-1] == selected:
+        selected_joints.append(selection)
+	x = x + 1
+print(x)
+
+def setFK():
+    for obj in selected_joints:
+        control_curve = cmds.circle(name=obj + "_FK_ctrl", normal=(1, 0, 0))[0]
+        group = cmds.group(control_curve, name=obj + "_FK_grp")
+        translation = cmds.xform(obj, query=True, translation=True, worldSpace=True)
+        rotation = cmds.xform(obj, query=True, rotation=True, worldSpace=True)
+        scale = cmds.xform(obj, query=True, scale=True, worldSpace=True)
+        cmds.xform(group, translation=translation, rotation=rotation, scale=scale, worldSpace=True)
+        parent_constraint = cmds.parentConstraint(obj, group, mo=True)[0]
+        cmds.disconnectAttr(parent_constraint + ".constraintRotateY", group + ".rotateY")
+        cmds.disconnectAttr(parent_constraint + ".constraintRotateZ", group + ".rotateZ")
+        cmds.disconnectAttr(parent_constraint + ".constraintRotateX", group + ".rotateX")
+        cmds.connectAttr (control_curve + ".rotate", obj + ".rotate")
+
+setFK()
+
+
+========================================
+PICKWALK
+========================================
+
+import maya.cmds as cmds
+
+def pickwalk(selected_objects):
+    up_objects = []
+    selected_joints = []
+    while selected_objects:
+        for obj in selected_objects:
+            parent_objects = cmds.listRelatives(obj, parent=True, fullPath=True)
+            if parent_objects:
+                up_objects.extend(parent_objects)
+                cmds.select(up_objects)
+                selected_joints.append(selection)
+        selected_objects = cmds.ls(selection=True)
+        if not selected_objects:
+            break
+    return selected_joints
+
+selected_objects = cmds.ls(selection=True)
+result = pickwalk(selected_objects)
+print("Selected joints:", result)

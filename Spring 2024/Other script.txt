@@ -1,0 +1,38 @@
+import maya.cmds as cmds
+
+def match_transforms_selected():
+
+    selected_objects = cmds.ls(selection=True)
+
+    translation = cmds.xform(selected_objects[1], query=True, translation=True, worldSpace=True)
+    rotation = cmds.xform(selected_objects[1], query=True, rotation=True, worldSpace=True)
+    scale = cmds.xform(selected_objects[1], query=True, scale=True, worldSpace=True)
+
+    for obj in selected_objects[0:]:
+        cmds.xform(obj, translation=translation, rotation=rotation, scale=scale, worldSpace=True)
+
+match_transforms_selected()
+
+
+
+===========================================
+
+import maya.cmds as cmds
+
+selected_objects = cmds.ls(selection=True)
+
+selected_joints = []
+for obj in selected_objects:
+    if cmds.nodeType(obj) == "joint":
+        selected_joints.append(obj)
+
+def match_transforms():
+
+    for obj in selected_objects[]:
+        control_curve = cmds.circle(name=joint + "_FK_ctrl")[0]
+        translation = cmds.xform(obj, query=True, translation=True, worldSpace=True)
+        rotation = cmds.xform(obj, query=True, rotation=True, worldSpace=True)
+    	scale = cmds.xform(obj, query=True, scale=True, worldSpace=True)
+        cmds.xform(control_curve, translation=translation, rotation=rotation, scale=scale, worldSpace=True)
+
+match_transforms()

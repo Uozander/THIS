@@ -1,0 +1,66 @@
+{
+		$selected = `ls -sl`;
+		for( $node in $selected ) {
+			circle -c 0 0 0 -nr 1 0 0 -sw 360 -r 1 -d 3 -ut 0 -tol 0.01 -s 8 -ch 1 -name ($node + "CTRL"); objectMoveCommand;
+			doGroup 0 1 1;
+			print (getAttr ("group1.tx") +"\n");
+			float $translate;
+			$translate = (getAttr ("group1.tx") +"\n");
+			print ( $translate);
+			rename "group1" ($node + "GRP");
+			print( $node +"\n" );
+			listAttr( $node);
+		}
+	}
+
+====================================================================
+
+{
+		$selected = `ls -sl`;
+		for( $node in $selected ) {
+			circle -c 0 0 0 -nr 1 0 0 -sw 360 -r 1 -d 3 -ut 0 -tol 0.01 -s 8 -ch 1 -name ($node + "CTRL"); objectMoveCommand;
+			doGroup 0 1 1;
+		//	print (getAttr ("group1.tx") +"\n");
+		//	float $tx;
+		//	float $ty;
+		//	float $tz;
+		//	$tx = `getAttr $node.tx`;
+		//	$ty = `getAttr $node.ty`;
+			//$tz = `getAttr $node.tz`;
+		//	print ( $translate);
+          //  setAttr ("group1.tx", $translate);
+		//	connectAttr -f group1.t $node.t;
+				rename "group1" ($node + "GRP");
+		print( $node +"\n" );
+		}
+	}
+
+
+=====================================================================
+
+{
+		$selected = `ls -sl`;
+		for( $node in $selected ) {
+			circle -c 0 0 0 -nr 1 0 0 -sw 360 -r 1 -d 3 -ut 0 -tol 0.01 -s 8 -ch 1 -name ($node + "CTRL"); objectMoveCommand;
+			doGroup 0 1 1;
+			print (getAttr ("group1.tx") +"\n");
+			float $translate;
+			$translate = `getAttr $node.tx`;
+			print ( $translate);
+            setAttr ("group1.tx", $translate);
+			rename "group1" ($node + "GRP");
+		print( $node +"\n" );
+		}
+	}
+
+=========================================================
+
+{
+		$selected = `ls -sl`;
+		for( $node in $selected ) {
+			circle -c 0 0 0 -nr 1 0 0 -sw 360 -r 1 -d 3 -ut 0 -tol 0.01 -s 8 -ch 1 -name ($node + "CTRL"); objectMoveCommand;
+			doGroup 0 1 1;
+			rename "group1" ($node + "GRP");
+		print( $node +"\n" );
+		}
+	}

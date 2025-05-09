@@ -1,0 +1,33 @@
+Environment - What kind of area does the game take place in or around?
+Length - How long would the game take to complete?
+Setting - What events are happening in the area?
+Time - What period is the game set in?
+Models - What models will be used?
+Landscape - What shape will the terrain have?
+Player - Who is the player? Where are they from, and what do they do?
+Tools/Weapons - What objects will the player use?
+Story - What happens to the player? What drives the narrative?
+Rising Action - What initiates the conflict?
+Climax - How is the game's conflict resolved?
+Resolution - What happens after the conflict is resolved?
+Objectives - What will the player be trying to do?
+Rewards - What will the player earn through their actions?
+Motivation - What does the player desire?
+Obstacles - What must the player overcome?
+Enemies - What enemies exist?
+NPCs - What entities other than the player and enemies exist?
+AI - Will computer-controlled make decisions?
+Audio - What sounds will be in the game? Music? Sound effects?
+UI - What on-screen buttons or graphics will be used?
+Feedback - How does the game communicate objectives/win/fail to the player?
+Guidance - What is used to guide the player to completion?
+Tutorial - What is used to teach the player how to play?
+Mechanics - What mechanics are used in gameplay?
+Movement - How will the player move?
+Combat - How will the player fight?
+Controls - Which keys take which actions?
+Checkpoints - How does the game save progress?
+Win - What happens when the player wins? Loses?
+Theme - What is the game's theme? Genre? 
+What does an overview of the game's map look like?
+What perspective is the game played in?

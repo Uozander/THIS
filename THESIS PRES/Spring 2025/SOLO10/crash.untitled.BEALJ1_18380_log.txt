@@ -1,0 +1,60 @@
+Crash report from ae212259; Houdini FX Version 20.5.522 [windows-x86_64-cl19.35]
+Uptime 58 seconds
+Mon Apr  7 14:22:58 2025
+Caught signal 11
+
+Traceback from 18380 ThreadId=0x00008204
+CURRENT THREAD 33284
++0x7ffbbf004d18 [newCop2Operator] C:\ProgramData\Redshift\Plugins\Houdini\20.5.278\dso\redshift4houdini.dll
++0x12d4099e [DM_ViewportHooks::callRenderHooks] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libDM.dll
++0x12d7bcaf [DM_VPortAgent::renderViewport] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libDM.dll
++0x12d615e8 [DM_VPortAgent::doRender] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libDM.dll
++0x12d33b77 [DM_Viewport::doRender] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libDM.dll
++0x28c0c911 [UI_Feel::renderMe] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c061f1 [UI_Feel::doRenderKids] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c0610b [UI_Feel::doRender] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c0c911 [UI_Feel::renderMe] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c061f1 [UI_Feel::doRenderKids] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c0610b [UI_Feel::doRender] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28d3e609 [UI_Viewport::reRender] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28d44937 [UI_Window::renderChildViews] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28d41611 [UI_Window::doRedrawSubclass] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x12d22176 [DM_ViewLayout::doMakeTriple] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libDM.dll
++0x28d4147e [UI_Window::doRedraw] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28cd92c5 [UI_Queue::doWindowRedraws] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28d3d9c4 [UI_Viewport::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28d01d46 [UI_Switcher::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x10abacef [FUSE_Pane::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libFUSE.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28c06050 [UI_Feel::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28d411c3 [UI_Window::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28bbb9bd [UI_QtWindow::doOpen] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28d42dbe [UI_Window::handleEvent] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28cdc22a [UI_Queue::processNextEvent] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28cd953f [UI_Queue::drainEvents] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x13650518 [OPUI_MainApp::onUiCreated] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libOPUI.dll
++0x28cdc22a [UI_Queue::processNextEvent] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28cd9399 [UI_Queue::drain] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x28cd9c28 [UI_Queue::eventLoop] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libUI.dll
++0x1156dc6f [AP_Interface::loadWindowGeometry] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libSI.dll
++0x1156e815 [myWinMain] C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\libSI.dll
++0x1400015a2 C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\houdini.exe
++0x140001a32 C:\Program Files\Side Effects Software\Houdini 20.5.522\bin\houdini.exe
++0x7ffc917a257d [BaseThreadInitThunk] C:\WINDOWS\System32\KERNEL32.DLL
++0x7ffc9236af28 [RtlUserThreadStart] C:\WINDOWS\SYSTEM32\ntdll.dll
+

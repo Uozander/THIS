@@ -1,0 +1,110 @@
+==================================
+Parent constraint to SAME bone
+==================================
+
+import maya.cmds as cmds
+
+joints = []
+
+def pickwalk(selected_objects):
+    up_objects = []
+    for obj in selected_objects:
+        parent_objects = cmds.listRelatives(obj, parent=True, fullPath=True)
+        if parent_objects:
+            up_objects.extend(parent_objects)
+            cmds.select(up_objects)
+            joints.extend(cmds.ls(selection=True))
+            print("Updated joints list:", joints)
+    return parent_objects
+    
+def setFK(obj):
+    global x
+    if x + 1 < len(joints):
+        control_curve = cmds.circle(name=obj + "_FK_ctrl", normal=(1, 0, 0))[0]
+        group = cmds.group(control_curve, name=obj + "_FK_grp")
+        translation = cmds.xform(obj, query=True, translation=True, worldSpace=True)
+        rotation = cmds.xform(obj, query=True, rotation=True, worldSpace=True)
+        scale = cmds.xform(obj, query=True, scale=True, worldSpace=True)
+        cmds.xform(group, translation=translation, rotation=rotation, scale=scale, worldSpace=True)
+        
+        parent_joint = joints[x+1]
+        parent_constraint = cmds.parentConstraint(parent_joint, group, mo=True)[0]
+        cmds.disconnectAttr(parent_constraint + ".constraintRotateY", group + ".rotateY")
+        cmds.disconnectAttr(parent_constraint + ".constraintRotateZ", group + ".rotateZ")
+        cmds.disconnectAttr(parent_constraint + ".constraintRotateX", group + ".rotateX")
+        cmds.connectAttr(control_curve + ".rotate", obj + ".rotate")
+        print("Connected:", obj)
+    else:
+        control_curve = cmds.circle(name=obj + "_FK_ctrl", normal=(1, 0, 0))[0]
+        group = cmds.group(control_curve, name=obj + "_FK_grp")
+        translation = cmds.xform(obj, query=True, translation=True, worldSpace=True)
+        rotation = cmds.xform(obj, query=True, rotation=True, worldSpace=True)
+        scale = cmds.xform(obj, query=True, scale=True, worldSpace=True)
+        cmds.xform(group, translation=translation, rotation=rotation, scale=scale, worldSpace=True)
+        cmds.connectAttr (control_curve + ".rotate", obj + ".rotate")
+    
+selected_objects = cmds.ls(selection=True)
+parent_objects = cmds.listRelatives(selected_objects, parent=True, fullPath=True)
+while parent_objects:
+    for obj in parent_objects:
+        selected_objects = cmds.ls(selection=True)
+        parent_objects = pickwalk(selected_objects)  
+
+x = 0  
+for item in joints:
+    setFK(item)
+    x += 1
+
+=============================================
+Parent constraint to bone ABOVE
+=============================================
+
+import maya.cmds as cmds
+
+joints = []
+
+def pickwalk(selected_objects):
+    up_objects = []
+    for obj in selected_objects:
+        parent_objects = cmds.listRelatives(obj, parent=True, fullPath=True)
+        if parent_objects:
+            up_objects.extend(parent_objects)
+            cmds.select(up_objects)
+            joints.extend(cmds.ls(selection=True))
+            print("Updated joints list:", joints)
+    return parent_objects
+    
+def setFK(obj):
+    global x
+    if x + 1 < len(joints):
+        control_curve = cmds.circle(name=obj + "_FK_ctrl", normal=(1, 0, 0))[0]
+        group = cmds.group(control_curve, name=obj + "_FK_grp")
+        translation = cmds.xform(obj, query=True, translation=True, worldSpace=True)
+        rotation = cmds.xform(obj, query=True, rotation=True, worldSpace=True)
+        scale = cmds.xform(obj, query=True, scale=True, worldSpace=True)
+        cmds.xform(group, translation=translation, rotation=rotation, scale=scale, worldSpace=True)
+        
+        parent_joint = joints[x+1]
+        parent_constraint = cmds.parentConstraint(parent_joint, group, mo=True)[0]
+        cmds.connectAttr(control_curve + ".rotate", obj + ".rotate")
+        print("Connected:", obj)
+    else:
+        control_curve = cmds.circle(name=obj + "_FK_ctrl", normal=(1, 0, 0))[0]
+        group = cmds.group(control_curve, name=obj + "_FK_grp")
+        translation = cmds.xform(obj, query=True, translation=True, worldSpace=True)
+        rotation = cmds.xform(obj, query=True, rotation=True, worldSpace=True)
+        scale = cmds.xform(obj, query=True, scale=True, worldSpace=True)
+        cmds.xform(group, translation=translation, rotation=rotation, scale=scale, worldSpace=True)
+        cmds.connectAttr (control_curve + ".rotate", obj + ".rotate")
+    
+selected_objects = cmds.ls(selection=True)
+parent_objects = cmds.listRelatives(selected_objects, parent=True, fullPath=True)
+while parent_objects:
+    for obj in parent_objects:
+        selected_objects = cmds.ls(selection=True)
+        parent_objects = pickwalk(selected_objects)  
+
+x = 0  
+for item in joints:
+    setFK(item)
+    x += 1

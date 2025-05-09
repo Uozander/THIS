@@ -1,0 +1,13 @@
+string $selectedJoint[] = `ls -sl`; // Get the name of the selected joint
+
+if (size($selectedJoint) == 0) {
+    print("Please select a joint.\n");
+} else {
+    string $jointName = $selectedJoint[0];
+    string $circleName = $jointName + "_CTRL";
+    string $groupName = $jointName + "_group";
+    circle -c 0 0 0 -nr 1 0 0 -sw 360 -r 1 -d 3 -ut 0 -tol 0.01 -s 8 -ch 1 -name ($jointName + "CTRL"); objectMoveCommand;
+	doGroup 0 1 1;
+    matchTransform group1 $jointName;
+    rename "group1" ($jointName + "GRP");
+}

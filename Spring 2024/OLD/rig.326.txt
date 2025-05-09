@@ -1,0 +1,8 @@
+neck rotating on CTRL translation
+Left arm lifts upon upper torso rotate Y
+neck bone move down
+
+mirror tool for hands?
+legs orient down joint
+fix feet bones
+knee CTRL parent GROUP!! to COG and Foot

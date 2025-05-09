@@ -1,0 +1,15 @@
+R - Locator Loc:
+-43.147
+140.98
+-25.205
+-3.386
+4.767
+91.668
+
+Right arm IK broken
+elbow CTRL not frozen
+neck rotating on CTRL translation
+Left arm lifts upon upper torso rotate Y
+neck bone move down, axis
+
+mirror tool for hands?

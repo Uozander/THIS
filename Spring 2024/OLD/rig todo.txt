@@ -1,0 +1,4 @@
+boots not symmetrical
+skinning
+proximity wrap laces, hair, hat, glasses, eyeshine
+textures

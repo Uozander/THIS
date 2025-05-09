@@ -1,0 +1,21 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" c_ttEditor Win64 Development -Project="D:\c_test\c_tt\c_tt.uproject" -WaitMutex -FromMsBuild -architecture=x64
+  Log file: C:\Users\jenningsel\AppData\Local\UnrealBuildTool\Log.txt
+  Building c_ttEditor...
+  Using Visual Studio 2022 14.40.33811 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+EXEC : warning : Visual Studio 2022 compiler is not a preferred version
+  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+    Executing up to 8 processes, one per physical core
+  Using Parallel executor to run 7 action(s)
+  ------ Building 7 action(s) started ------
+  [1/7] Compile [x64] c_tt.cpp
+  [2/7] Compile [x64] c_tt.init.gen.cpp
+  [3/7] Compile [x64] MyActor.gen.cpp
+  [4/7] Compile [x64] MyActor.cpp
+  [5/7] Link [x64] UnrealEditor-c_tt.lib
+     Creating library D:\c_test\c_tt\Intermediate\Build\Win64\x64\UnrealEditor\Development\c_tt\UnrealEditor-c_tt.lib and object D:\c_test\c_tt\Intermediate\Build\Win64\x64\UnrealEditor\Development\c_tt\UnrealEditor-c_tt.exp
+  [6/7] Link [x64] UnrealEditor-c_tt.dll
+     Creating library D:\c_test\c_tt\Intermediate\Build\Win64\x64\UnrealEditor\Development\c_tt\UnrealEditor-c_tt.sup.lib and object D:\c_test\c_tt\Intermediate\Build\Win64\x64\UnrealEditor\Development\c_tt\UnrealEditor-c_tt.sup.exp
+  [7/7] WriteMetadata c_ttEditor.target
+  Total time in Parallel executor: 1.65 seconds
+  Total execution time: 2.28 seconds

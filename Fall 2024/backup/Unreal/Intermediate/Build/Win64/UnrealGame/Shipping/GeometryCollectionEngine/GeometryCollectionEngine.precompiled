@@ -1,0 +1,16 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\Module.GeometryCollectionEngine.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\Module.GeometryCollectionEngine.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\GeometryCollectionComponent.ispc_avx512skx.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\GeometryCollectionComponent.ispc_avx2.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\GeometryCollectionComponent.ispc_avx.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\GeometryCollectionComponent.ispc_sse4.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\GeometryCollectionComponent.ispc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\GeometryCollectionSceneProxy.ispc_avx512skx.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\GeometryCollectionSceneProxy.ispc_avx2.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\GeometryCollectionSceneProxy.ispc_avx.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\GeometryCollectionSceneProxy.ispc_sse4.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCollectionEngine\\GeometryCollectionSceneProxy.ispc.obj"
+	]
+}

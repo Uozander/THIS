@@ -1,0 +1,13 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Voronoi\\Module.Voronoi.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Voronoi\\cell.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Voronoi\\container.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Voronoi\\c_loops.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Voronoi\\pre_container.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Voronoi\\unitcell.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Voronoi\\v_base.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Voronoi\\v_compute.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Voronoi\\wall.cc.obj"
+	]
+}

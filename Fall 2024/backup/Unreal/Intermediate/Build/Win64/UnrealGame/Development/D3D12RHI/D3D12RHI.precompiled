@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\D3D12RHI\\Module.D3D12RHI.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\D3D12RHI\\Module.D3D12RHI.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\D3D12RHI\\Module.D3D12RHI.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\D3D12RHI\\Module.D3D12RHI.4.cpp.obj"
+	]
+}

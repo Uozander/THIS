@@ -1,0 +1,23 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.4.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.5.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.6.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.7.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.8.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.9.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.10.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.11.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.12.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.13.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.14.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.15.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.16.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.17.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\Module.Core.18.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Core\\MiMalloc.c.obj"
+	]
+}

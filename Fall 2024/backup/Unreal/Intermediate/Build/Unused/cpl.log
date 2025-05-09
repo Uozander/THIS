@@ -1,0 +1,6 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" cplEditor Win64 Development -Project="D:\dd_dd\cpl\cpl.uproject" -WaitMutex -FromMsBuild -architecture=x64
+  Log file: C:\Users\jenningsel\AppData\Local\UnrealBuildTool\Log.txt
+  Total execution time: 0.72 seconds
+  Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\Build.bat" cplEditor Win64 Development -Project="D:\dd_dd\cpl\cpl.uproject" -WaitMutex -FromMsBuild -architecture=x64" exited with code 6.

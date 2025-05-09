@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCore\\Module.GeometryCore.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCore\\Module.GeometryCore.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCore\\Module.GeometryCore.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GeometryCore\\Module.GeometryCore.4.cpp.obj"
+	]
+}

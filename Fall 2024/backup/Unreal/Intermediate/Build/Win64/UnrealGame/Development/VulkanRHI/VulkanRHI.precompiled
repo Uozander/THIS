@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VulkanRHI\\Module.VulkanRHI.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VulkanRHI\\Module.VulkanRHI.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VulkanRHI\\Module.VulkanRHI.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\VulkanRHI\\Module.VulkanRHI.4.cpp.obj"
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LiveCoding\\Module.LiveCoding.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LiveCoding\\xxhash.c.obj"
+	]
+}

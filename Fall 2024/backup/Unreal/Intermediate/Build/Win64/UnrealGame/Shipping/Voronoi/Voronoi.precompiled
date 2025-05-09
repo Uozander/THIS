@@ -1,0 +1,13 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Voronoi\\Module.Voronoi.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Voronoi\\cell.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Voronoi\\container.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Voronoi\\c_loops.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Voronoi\\pre_container.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Voronoi\\unitcell.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Voronoi\\v_base.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Voronoi\\v_compute.cc.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Voronoi\\wall.cc.obj"
+	]
+}

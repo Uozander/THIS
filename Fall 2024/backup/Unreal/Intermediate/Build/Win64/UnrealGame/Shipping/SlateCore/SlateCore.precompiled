@@ -1,0 +1,9 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SlateCore\\Module.SlateCore.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SlateCore\\Module.SlateCore.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SlateCore\\Module.SlateCore.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SlateCore\\Module.SlateCore.4.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SlateCore\\Module.SlateCore.5.cpp.obj"
+	]
+}

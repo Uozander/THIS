@@ -1,0 +1,18 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.4.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.5.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.6.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.7.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.8.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.9.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.10.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.11.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.12.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.13.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\CoreUObject\\Module.CoreUObject.14.cpp.obj"
+	]
+}

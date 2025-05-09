@@ -1,0 +1,12 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\SignalProcessing\\Module.SignalProcessing.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\SignalProcessing\\Module.SignalProcessing.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\SignalProcessing\\Module.SignalProcessing.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\SignalProcessing\\FloatArrayMath.ispc_avx512skx.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\SignalProcessing\\FloatArrayMath.ispc_avx2.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\SignalProcessing\\FloatArrayMath.ispc_avx.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\SignalProcessing\\FloatArrayMath.ispc_sse4.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\SignalProcessing\\FloatArrayMath.ispc.obj"
+	]
+}

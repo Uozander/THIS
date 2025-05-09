@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Launch\\Module.Launch.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\Launch\\PCLaunch.rc.res"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\RenderCore\\Module.RenderCore.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\RenderCore\\Module.RenderCore.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\RenderCore\\Module.RenderCore.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\RenderCore\\Module.RenderCore.4.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\RenderCore\\Module.RenderCore.5.cpp.obj"
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.4.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.5.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.6.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.7.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.8.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.9.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.10.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.11.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.12.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.13.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.14.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.15.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.16.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.17.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.18.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.19.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.20.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.21.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.22.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.23.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.24.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.25.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.26.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.27.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\Renderer\\Module.Renderer.28.cpp.obj"
+	]
+}
